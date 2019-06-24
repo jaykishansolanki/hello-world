@@ -1,0 +1,1134 @@
+
+print("\n".join(["*"*(i+1) for i in range(5)]))
+
+./odoo-
+ --addons-path=addons,../enterprise 
+http://pad.odoo.com/p/new_views
+git clean 
+-f
+./odoo-bin --addons-path=addons,../enterprise  -d today --db-filter=today --db=all
+ git reset --hard HEAD~1	
+ reset --hard HEAD~2
+
+git remote add odoo-dev http://github.com/odoo-dev/odoo.git
+
+git reset HEAD~3
+
+to remove latest 3 commits we can use reset HEAD~3
+after that u have to check status and clean the diff which is created by reset
+
+git pull
+remote branch local
+
+git checkout -b master-product-accounts-on-product-variant-jao odoo-dev/master-product-accounts-on-product-variant-jao
+
+ git status
+
+git remote -v
+
+git branch
+
+git checkout -b master-delivery-add-company-rule-jao odoo/master
+
+git branch
+
+git 
+commit -am "[WIP]"
+
+git rebase odoo/master -i
+git rebase ent/master -i	
+
+git push github --delete test
+
+O 
+
+git push -f odoo-dev master-delivery-add-company-rule-jao
+------------------------------------------------------->
+./odoo-bin -d super --db-filter=super -u delivery------->for comunity only
+./odoo-bin --addons-path=../enterprise/,addons -d test --db-filter=test -u delivery--->gen
+./odoo-bin --addons-path=../enterprise,./addons/ -d today --db-filter=today----->10.0
+./odoo-bin --addons-path=addons,../enterprise -d task3 --db-filter=task3-------GEN
+
+------------------------------------------------------------------------------------------------------------------------------------------>
+For Create a New Branch
+ git checkout -b master-website-todo-in-dashboard odoo/master
+
+
+
+
+---------------------------------------------------->
+
+git fetch --all -p
+git log
+git diff
+git status	
+
+https://guides.github.com/activities/hello-world/
+
+----------------------------------------------------->
+
+for REBASE
+
+git rebase odoo/master -i
+
+aWQsbmFtZSxhbW91bnQKYWNjb3VudC5kZW1vX2Jhbmtfc3RhdGVtZW50XzQsYWJjLDY1MDAK
+
+ git commit -am "[IMP] Convert YML to Python Testcase fifo_price.yml "
+for commit daily work
+
+git push odoo-dev master-purchase-fifo_price-yml-to-py-jao 
+
+20-4 Commit in yml
+https://github.com/odoo/odoo/commit/88db8f81e9d75e3c23eec34a122b23b346abd0dd
+25-4e
+Test case Improvement and solve Error (not working in runbot) and add description in test case
+https://github.com/odoo/odoo/commit/4007bbd0ec32e0d7d716070a31f98d657ff9de61
+https://www.odoo.com/web#id=32979&view_type=form&model=project.task&action=327&menu_id=4720
+currently working on this task ---->R&D
+task is in
+
+
+--------------------------------------------------------------->
+git commit -am "[ADD] delivery: added new security rule for standard multi-company access rule"
+git rebase odoo/master -i
+git push -f odoo-dev master-delivery-add-company-rule-jao 
+
+---------------------------------------------------------------->
+ For Create a New Branch
+ git checkout -b master-website-todo-in-dashboard-jao odoo/master
+git commit -am "[IMP] "
+
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-website-todo-in-dashboard
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-website-todo-in-dashboard
+PR: 
+
+27-4 - remove app suggestion buttons - hide todo section if no button to display
+28-4 -move button to go to website - improve tooltip  in sales graph
+1-5 -go to website button not redirect properly  - analysis bordeline graph points
+2-5-go to website button issue solve - working(test) bordeline on graph point
+3-5-analysis graph and understand structure of js - testing  code
+5-5 improve tooltip text in sales graph - test code on borderline graph points 
+https://github.com/odoo/odoo/commit/b7daeb532f79c6ebce662fc1a0b2a030f2b1c0ca
+
+
+
+master-website-todo-in-dashboard-jao
+15may2017
+https://github.com/odoo/odoo/commit/77d25830a9135c0d7d37257eb20d02af55ff397f
+
+TASK-> 3--->[account] Import bank statement - open reconciliation interface
+
+bug->master----->basic_field.js
+	10.0 ----->form_widget.js
+
+Testing------------------------------------->
+23 may
+git checkout -b master-stock-ln-sn-groupby-kso odoo-dev/master-stock-ln-sn-groupby-kso
+git checkout -b master-mrp-message-improvements-vit odoo-dev/master-mrp-message-improvements-vit
+
+
+https://www.odoo.com/web#id=33488&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+https://www.odoo.com/web#id=33162&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+https://www.odoo.com/web#id=33644&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+https://www.odoo.com/web#id=33219&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+
+-------Testing-------
+26 may
+https://www.odoo.com/web#id=33390&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+32979
+33454
+32223 29/2017 please correct spelling
+As per spac need to change text "slide" to "slider"
+https://drive.google.com/file/d/0B5amJzbPHfP5ekQ2cFV3S2hPdXc/view?usp=sharing
+
+https://docs.google.com/spreadsheets/d/11dA7CG21I5y6Rx-SRs4yMFLvQcZk2jast233-IzAHr4/edit?ts=5934e8c5#gid=0
+
+https://docs.google.com/spreadsheets/d/1Rz1lsUd5_3LlL5bnUba07LEupf41x2r0pnegwK5ide0/edit?usp=sharing
+
+Some Changes required in Tax group 
+As per spac need to change text "move" to "moved" in tooltip of final stage
+
+TestCase
+./odoo-bin -d testh -i hr_recruitment --db-filter=testh --test-enable
+
+jobs@procuretiger.com
+http://www.sitesbay.com/
+
+32796 Green
+30501 Green
+
+ An error occurred in master
+12th June
+31172    Changes	
+33455   An error occurred in master	
+R&D on pivot view issue
+ 
+
+When a new product is created we must select these two options in Category(as shown in screenshot).https://drive.google.com/open?id=0B5amJzbPHfP5N0xyeEdpakx2Mnc
+Either receiving or delivery of product.if we change the standard cost of a product,we can see its entry in JE(Journal Entry).
+
+
+ git checkout -b master-account-display-product-in-journal-entry-jao odoo/master
+git push -u odoo-dev master-account-display-product-in-journal-entry-jao
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-account-display-product-in-journal-entry-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-account-display-product-in-journal-entry-jao
+PR: 
+
+"[IMP] stock_account: Display the product's name in the journal entries,
+When the product's inventory valuation is set to 'Perpetual (automated)' and if the product's cost price is changed then add the product's name to the journal items created automatically."
+
+'|','|',('default_code','ilike',self),
+,('barcode','ilike',self)
+
+https://drive.google.com/open?id=0B5amJzbPHfP5Qm9MNndZN253VzQ
+https://drive.google.com/open?id=0B5amJzbPHfP5Zm9xR1J6QkJ5NkU
+https://drive.google.com/open?id=0B5amJzbPHfP5b1BhQ0NRZUotZWs
+https://drive.google.com/open?id=0B5amJzbPHfP5OF9rcm5TT2pGWW8
+https://drive.google.com/open?id=0B5amJzbPHfP5el8yZ1MxSjE3WEk
+master-stock_picking_wave-python_test_case-jao
+https://github.com/odoo/odoo/compare/master...odoo-dev:master-stock_picking_wave-python_test_case-jao
+"[ADD] stock_picking_wave : add python test casee for stock_ picking_ wave"
+sales > catalog > products  (product.template)
+sales > catalog > product variants  (product.product)
+website > catalog > products (product.template)
+point of sale > catalog > products (product.template)
+purchases > purchase >products (product.template)
+purchases > purchase >product variants (product.product)
+inventory > inventory control > products (product.template)
+inventory > inventory control > product variants  (product.product)
+manufacturing > master data > products (product.template)
+accounting > configuration  > products (product.product)
+PLM > master data > products (product.template)
+lunch > configuration > products (lunch.product)
+
+StockPickingWave
+
+
+>Create two SO
+>Add  SO in wave
+>In picking wave check the status of SO (will be 'available') 
+>In picking wave if SO in waiting availability status then give error
+>If SO in 'available' status then done picking
+>Print picking wave
+
+ 	# Product 1 ( 100 qty )
+        # Product 2 ( 0 qty )
+        # Picking 1 Create ( Product 1 ) 20
+        # Picking 2 Craete ( Product 2 ) 10
+
+        # Picking wave create ( Add picking )
+        # Assign material to wave.
+        # Assert (status, check for error )
+
+        # Material available (10 qty update product 2)
+
+        # Assign ( Ready )
+        # transfer goods 
+        # 2 picking should be done.
+
+
+ git commit -am "[IMP] mrp : hide product template in the debug mode "
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-product-accounts-on-product-variant-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-product-accounts-on-product-variant-jao
+PR: 
+
+
+purchase>ok>remove variants from the settings
+pos>ok>remove variants from the settings
+stock>OK>remove variants from the settings
+mrp>ok>remove variants from the settings
+
+https://github.com/odoo/odoo/commit/c7eccb3af5448af9c2a81343542e073f89c38768
+https://github.com/odoo/odoo/commit/db4e9f40af04be36264f0f6617dad8e62f39a814
+https://github.com/odoo/odoo/commit/2515859b122e13285d45d090d4f400c456e98edd
+https://github.com/odoo/odoo/commit/a38deb11e0a0dddea5615ba9317e6b211f0f6299
+
+PR PAD:-Task:https://www.odoo.com/web#id=34174&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+pad:
+	
+"[IMP] product : search on the internal reference and barcodes of the product variants from the product template" 
+
+https://www.odoo.com/web#id=34174&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+https://github.com/odoo-dev/odoo/commit/36913e01513267691afabd2e0128dc3679fac1d8
+
+https://www.odoo.com/web#id=34343&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+
+34343
+https://www.odoo.com/documentation/user/9.0/purchase/replenishment/flows/compute_date.html
+R&D 
+
+company_sec_rule
+4/7
+
+34174
+https://github.com/odoo-dev/odoo/commit/a0327f3a11ebb772b2966e24b9d91bbb93081fda
+34343
+R&D
+
+>>>>>>>>>>>>>>>>>computation commitment date>>>>>>>>>>>>>>>>>>>>>.
+
+commitment_date > Date by which the products are sure to be delivered 
+requested_date > Date by which the customer has requested the items to be delivered
+effective_date > Date on which the first Delivery Order was created
+
+Delivery Date > Set a delivery date on orders
+By default Odoo computes the expected delivery date this way: order date + highest customer lead time of products. With this option, you can set a specific delivery date on orders rather than setting lead times on products.
+
+
+>>>>>>>>>sale group by report>>>>>>>>>>>>.
+Branch: https://github.com/odoo-dev/odoo/tree/master-sale-default-group-by-in-report-confirm-date-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-sale-default-group-by-in-report-confirm-date-jao
+PR: 
+
+34878
+https://github.com/odoo-dev/odoo/commit/f888bfc1382a1f8210c3bc5f1464f3604512f836
+
+34343
+R&D
+
+master-stock_picking_wave-python_test_case-jao
+[ADD] stock_picking_wave : add python test case for stock_ picking_ wave
+
+stock_picking_wave testcase
+https://github.com/odoo-dev/odoo/commit/b67e3ba4d0d3e618527df86be1c96c22d5ac7680
+https://github.com/odoo-dev/odoo/commit/1b4315a122bc9b82a59e2e39c5f3cdbad1418bb6
+
+
+>>>>>>>>>>>>>>Sale_order_dates>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+- Commitment date in SO is only based on SO creation date + lead time.
+	-until the order is draft: commitment date = current date + lead time. 
+        -once the order confirmed: commitment date = confirmation date + lead time = expected delivery date (in picking) 
+
+- The field "Effective Date" is not working
+	-Effective Date = "date_done" of stock picking
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-sale-computation-commitment-date-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-sale-default-group-by-in-report-confirm-date-jao	
+PR: 
+
+34343
+code test
+
+34878
+https://github.com/odoo-dev/odoo/commit/f0cfb5196603e165a2bd3e1b82d99a7a796f062f
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ @api.depends('date_order', 'confirmation_date', 'order_line.customer_lead')
+    def _compute_commitment_date(self):
+        """Compute the commitment date"""
+        for order in self:
+            dates_list = []
+            date = order.confirmation_date or order.date_order
+            for line in order.order_line.filtered(lambda x: x.state != 'cancel'):
+                dt = fields.Datetime.from_string(date) + timedelta(days=line.customer_lead or 0.0)
+                dates_list.append(dt)
+            if dates_list:
+                commit_date = min(dates_list) if order.picking_policy == 'direct' else max(dates_list)
+                order.commitment_date = fields.Datetime.to_string(commit_date)
+
+    @api.depends('order_line.qty_delivered')
+    def _compute_effactive_date(self):
+        for order in self:
+            pickings = order.picking_ids.filtered(lambda x: x.location_dest_id.usage == 'customer')
+            done_dates = pickings.mapped("date_done")
+            order.effective_date = done_dates and min(done_dates)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+34343
+https://github.com/odoo-dev/odoo/commit/a1d6095b54d63ce75eb8f3fd15d012e86e8009f5
+34887
+R&D
+today link c
+create issue : [stock] done date not set on picking
+https://www.odoo.com/web#id=753104&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+https://github.com/odoo/enterprise/tree/saas-17
+ git checkout -b saas-17 odoo/saas-17
+git remote update 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+issue in stoc
+Affected Version Saas17, Master
+----------------------------------------------
+[stock] done date not set on picking
+As new changes in stock, when we transfer outgoing shipments 
+date_done not set on picking (right now the field is not visible on the picking)
+for more details see this video ->https://drive.google.com/open?id=0B5amJzbPHfP5UWtkQWFfcUFzZzg
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+git checkout -b saas-17-test odoo/saas-17
+git pull --rebase
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+i have post the bug in master bug
+saas-17-fix-stock-date_done-on-picking-jao
+======
+Branch
+======
+Branch : https://github.com/odoo-dev/odoo/tree/saas-17-fix-stock-date_done-on-picking-jao
+Compare : https://github.com/odoo/odoo/compare/saas-17...odoo-dev:saas-17-fix-stock-date_done-on-picking-jao
+PR : 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://www.odoo.com/web#id=753104&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+https://github.com/odoo-dev/odoo/commit/4f62260972ee75f73f830c38964b78af92ba20fc
+
+34887
+https://github.com/odoo-dev/odoo/commit/e46229a72aeabcbdba5228f0a8e59b54170e19f5
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+git checkout -b master-stock-ln-sn-groupby-kso odoo-dev/master-stock-ln-sn-groupby-kso
+master-purchase-yml-to-py-dge
+git checkout -b master-isuue-delivery-orders-dip odoo-dev/master-isuue-delivery-orders-dip
+
+
+https://drive.google.com/open?id=0B5amJzbPHfP5TW12M08wNWozaUU
+Traceback while open packages 
+/home/odoo/odoo/community/addons/purchase/test/fifo_price.yml
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+task
+34343
+https://github.com/odoo-dev/odoo/commit/c15c4a944c50997a4085e18b1c64ec90cef6fc43
+
+issue solve
+753104
+https://github.com/odoo-dev/odoo/commit/24f36da2a75e2091bc066cd5ac8f43b5a0ac4e03
+
+issue create
+756457
+
+>>>>>>>>>>>>>>>>>>>>>.....
+
+https://github.com/odoo-dev/odoo/commit/220220a282dada56db56db06abe5823fd322a982
+
+https://docs.google.com/document/d/1iUfsXN8A0T1VQFzm_oqfoXgJZnMAuFtPSBs0Ecg1QRk/edit?usp=sharing
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+32792
+R&D
+https://github.com/odoo-dev/odoo/commit/7539c014c8c1dc32b7d552d3f9a8b376f72974f5
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+34343
+https://github.com/odoo-dev/odoo/commit/0c10d4cd49d626a752cd7a2618c7d30eeb765f63
+
+
+34174
+https://github.com/odoo-dev/odoo/commit/2a22013f8962fc26a3aaad9753c6e73c41884957
+https://github.com/odoo-dev/odoo/commit/9bd4da5577433fe64f8f4ddd59ee5b216b91b7e5
+https://github.com/odoo-dev/odoo/commit/6b2d0a81857022fc2387f00797f9d457a68066a7
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+https://github.com/odoo/odoo/commit/cf8e78c54bc26db902f97068bb602e01bffe6c2e
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+32792
+https://github.com/odoo/odoo/commit/e1f974af1f05b9d68c21cffa0d16711e30e44b19
+34174
+https://github.com/odoo/odoo/commit/41601c1a9e56320a4210d2379acb1c40a7165b5e
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+34887
+https://github.com/odoo/odoo/commit/0ace3b00d713780d566c640303f481a5c686ce62
+
+32792
+https://github.com/odoo/odoo/commit/4323e0a4148f019fbbbd084a7dc3a40b64c7da62
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+32792
+https://github.com/odoo/odoo/commit/b05a1e21b7dc484bb1624ac0b74d4680f3bab631
+https://github.com/odoo/odoo/commit/ce75ada45d615aa5fe0a129b0ad2722f350d85e8
+https://github.com/odoo/odoo/commit/6b7327cf47c82a93cfb202ed47bb7c66eea76a1f
+https://github.com/odoo/odoo/commit/1f29871ed2772c935a1d6dd8e899f805161afc77
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+32792
+https://github.com/odoo/odoo/commit/548c25bc7dda5465ed4b7ed23d64d7dfcd75cdce
+https://github.com/odoo/odoo/commit/6ecf225e0b76296aea5fd255f95f2d217126e50f
+https://github.com/odoo/odoo/commit/1b2297e4473429f05cd58fde4873a557884fafd7
+https://github.com/odoo/odoo/commit/3ab6ff25a7881faea14112e44fc7283522ef9509
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+35762
+R&D
+save this page and come back here to set up the feature.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Remove "Save this page and come back here to set up the feature."
+in settings that give such notification when installing apps: https://drive.google.com/file/d/0B5amJzbPHfP5S0JqOWQwcm1QVTg/view?usp=sharing
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>|
+
+760740
+https://github.com/odoo/odoo/commit/55d9d1168a3d32475be48e0c6e2e84bc49733c70
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+35762
+https://github.com/odoo/odoo/commit/33e0af8011d2148c01aac37355e3d7edd3bc3c68
+https://github.com/odoo/odoo/commit/b6cd8812fbc4a824951d82b10cf14345d52518cf
+https://github.com/odoo/odoo/commit/6f22763c08357328bd021f38940f6ae237a276d1
+
+760740
+code test
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+stock.report_delivery_document
+<record id="product_template_portal_rule" model="ir.rule">
+        <field name="name">Portal product template</field>
+        <field name="model_id" ref="product.model_product_template.website_published"/>
+        <field name="domain_force">[(1, '=', 1)]</field>
+        <field name="groups" eval="[(4, ref('base.group_portal'))]"/>
+    </record>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+760740
+https://github.com/odoo/odoo/commit/bc1f7ce9fcb0bcac39186f3e7740da9386ef0eb7
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-remove-all-notification-in-settings-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-remove-all-notification-in-settings-jao
+PR: 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.>>>>>>>>>>..
+34343
+https://github.com/odoo/odoo/commit/166e1cdde26fe548b159628307a499609c3f0691
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+34343
+https://github.com/odoo/odoo/commit/08afae2c98e3964c041dcff24bc774794ebba042
+https://github.com/odoo/odoo/commit/bad204bc564783886d54ff1c95a56e9583de41cc
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+34343
+https://github.com/odoo/odoo/commit/95af6161d9ebd3276f56fba1c1785bbdcba312bc
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>....
+
+34343
+https://github.com/odoo/odoo/commit/461ee372478ce14786dda9a6bf458f7d7699cc45
+760740
+https://github.com/odoo/odoo/commit/bc1f7ce9fcb0bcac39186f3e7740da9386ef0eb7
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+34343
+https://github.com/odoo/odoo/commit/d079eee81e22314b279473badac094f166eb5a29
+760740
+https://github.com/odoo/odoo/commit/8fd5544ef91118c5336ff7c54a7fcac6e727b6c5
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://docs.google.com/spreadsheets/d/1qe8E54B4sePcjMruvaxG4V4sTdFa-4IwL-fua5nGEy8/edit#gid=0
+
+Issue is already
+This issue is resolved in master so i cancelled it
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-issue-hr-traceback-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-issue-hr-traceback-jao
+[FIX] project : task analysis graph view is not render data after switch from the pivot view.
+
+767485
+https://github.com/odoo/odoo/commit/18b51db108da00f1a6a31c08f115394105db3c64
+
+if ('groupBy' in params) {
+            if (!params.groupBy.length) {
+                this.chart.groupedBy = this.initialGroupBys;
+            } else {
+                this.chart.groupedBy = params.groupBy;
+            }
+        }
+
+767485
+https://github.com/odoo/odoo/commit/6f1e4bffb5c5440b57b5bc9b3afb057975d02441
+https://github.com/odoo/odoo/commit/f7ea8ecbb0147e1d46834ca242061a0c7d21713f
+
+767485
+https://github.com/odoo/odoo/commit/644059e613cc5a9e40e5bc8aa04ba761b7b7dff1
+
+chmod +x netbeans-8.1-linux.sh
+https://drive.google.com/a/odoo.com/file/d/0B0ITmdw6h3ZrUGs0bTR4eUkta00/view?usp=drivesdk
+cocacola1dept@live.co.uk
+7/09
+767485
+https://github.com/odoo/odoo/commit/d6ff37a629f468f41a0a31ae151bfcd61cac7e10
+	https://drive.google.com/open?id=1K0t7Li8o3dNeJcbwBC0-8p7X5zhLhW7zrC0h6OI04FQ
+
+
+Corrective means i have something in bed condition and i want to correct it.
+preventive means i want soluation in such a way the next time bug does not come it self.
+
+Pad :- http://pad.odoo.com/p/bug_v11
+
+Purchase: 
+
+https://goo.gl/LsyMMs
+
+1) Traceback when click on active button of product see the link below:(Product: (in master)(JAO))
+https://goo.gl/HuDgr4
+
+2) Traceback when click on send PO by email button and try to upload image in compose email see the link below: (Purchase: JAO)
+https://goo.gl/hhWPhB
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) Traceback when click on add to order lines button in suggested product in crm see the link below.(JAO)
+https://drive.google.com/open?id=0B_0EQSi8IFsBdG4tT1NnRHBZS0E
+2)
+https://www.odoo.com/web#id=771363&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+https://github.com/odoo/odoo/commit/f48b1975f957406e1ad330473923533cd294bea2
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) Rendering problem,  in sale -> reporting ->sales channels when we apply group by  as a team leader data is not display propar(JAO)
+https://drive.google.com/open?id=0B_0EQSi8IFsBOVVYd3lMaTlDQ1U
+
+2) in webiste home when we add Newsletter and try to fill data in Newsletter(textbox) data is written outside the textbox.
+https://drive.google.com/open?id=0B_0EQSi8IFsBX0NhSnUzdk11QWs
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://www.odoo.com/web#id=771813&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+
+in repair -> repair orders ->send quotation it's produce  garbag value in mail body(in community)(jao) 
+https://drive.google.com/open?id=0B_0EQSi8IFsBZFBCSlk5UkV4dEk
+
+in Version 60.0.3112.78 
+in the higher version it's not come
+[FIX] sale_coupon: when we click on generate coupon it's give traceback res_id undefine.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Branch: https://github.com/odoo-dev/enterprise/tree/master-issue-in-coupon-jao
+Compare: https://github.com/odoo/enterprise/compare/master...odoo-dev:master-issue-in-coupon-jao
+PR:
+
+Traceback in calendar -> online appointments -> click on publish website button it gives 500: Internal Server Error(JAO)
+https://drive.google.com/file/d/0B_0EQSi8IFsBaTVsMEJyNmhpSHM/view
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Traeback in timesheet(JAO) https://drive.google.com/open?id=0B_0EQSi8IFsBckFhMUp2c05raVE
+
+
+[marketing_automation] traceback 
+https://drive.google.com/file/d/0B_0EQSi8IFsBTENDSHVqd3oyUkE/view
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/odoo-dev/enterprise/tree/saas-18-issue-in-coupon-jao
+https://github.com/odoo/enterprise/compare/saas-18...odoo-dev:saas-18-issue-in-coupon-jao
+
+https://www.odoo.com/web#id=771813&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+https://github.com/odoo/enterprise/commit/2834cb937779db05ddb0285e952865ec5c89b62d
+
+https://www.odoo.com/web#id=772497&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+R&D
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[FIX] marketing_automation: Fixed a traceback, when we click on save button it's give traceback of create() method.
+
+
+https://www.odoo.com/web#id=772497&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+https://github.com/odoo/enterprise/commit/eea5182e47872ebf00044f1b6ddead017088d75d
+
+when click on add to order lines button in suggested product in sale it is not work propar(JAO). see the link below.
+https://drive.google.com/open?id=0B5amJzbPHfP5dFhkU2VpWDZoM2s
+
+https://github.com/odoo-dev/enterprise/tree/saas-18-marketing-automation-fix-issue-jao
+https://github.com/odoo/enterprise/compare/saas-18...odoo-dev:saas-18-account-report-columns-remove-text-jao
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://www.odoo.com/web#id=771813&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+R&D
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+these two do exaclty the same suppress the one above
+296
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+http://pad.odoo.com/p/saas18
+https://github.com/odoo/enterprise/pull/1422/commits/ba728bce19d7c16552982bdde2cf4ef99d6d85de
+https://github.com/odoo/odoo/pull/19647/commits/6198e3a23d726b2918c75fa3e348163aeca5c94c
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+http://pad.odoo.com/p/saas18
+[FGI] pricelists menu: https://drive.google.com/a/odoo.com/file/d/0B1uIL9E_zXrrVEtfRkNBV09DVGM/view?usp=drivesdk @JNI 
+R&D and Code test..
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+===========================================================================================
+appointment for dental check up.
+===========================================================================================
+http://pad.odoo.com/p/saas18
+
+Typo http://nimb.ws/Xe375U
+https://github.com/odoo/enterprise/commit/24c91544f945f6798657c1de5b7d8b98955a5a6a
+
+http://pad.odoo.com/p/saas18
+
+18-p
+16-p
+==============================================================
+use_salae_note field is not ranslate field 
+it
+before this commit in sale settings if we make any field true then it is produce notif
+
+in sales settings translation notif should only show up if terms & conditions are updated.
+
+http://pad.odoo.com/p/saas18
+
+28-9
+[FGI] translation notif should only show up if terms & conditions are updated in sales settings: https://drive.google.com/a/odoo.com/file/d/0B1uIL9E_zXrrckZTTDEwNGlZd3M/view?usp=drivesdk @jni --(JAO)
+https://github.com/odoo/odoo/commit/9aa2b619c60b467bfddd952ff64193d7b06b5964
+
+29-9
+[FGI] translation notif should only show up if terms & conditions are updated in sales settings: https://drive.google.com/a/odoo.com/file/d/0B1uIL9E_zXrrckZTTDEwNGlZd3M/view?usp=drivesdk @jni --(JAO)
+[YTI] this is a framework issue. Even if the value is not passed on the create, the message is still displayed
+===============================================================
+var isCheckTerms = _.find(self.renderer.__parentedChildren, function(field) {
+                return field.value == true && field.attrs.name == 'use_sale_note' ?  field : false;
+            });
+
+
+    saveRecord: function () {
+        var self = this;
+        return this._super.apply(this, arguments).then(function (changedFields) {
+            // the title could have been changed
+            self.set('title', self.getTitle());
+            self._updateEnv();
+            var isCheckTerms = _.find(self.renderer.__parentedChildren, function(field) {
+                return field.value == true && field.attrs.name == 'use_sale_note' ?  field : false;
+            });
+            if (_t.database.multi_lang && changedFields.length) {
+                // need to make sure changed fields that should be translated
+                // are displayed with an alert
+                var fields = self.renderer.state.fields;
+                var alertFields = [];
+                for (var k = 0; k < changedFields.length; k++) {
+                    var field = fields[changedFields[k]];
+                    if (field.translate) {
+                        alertFields.push(field);
+                    }
+                }
+                if (alertFields.length && isCheckTerms && isCheckTerms.value) {
+                    self.renderer.displayTranslationAlert(alertFields);
+                }
+            }
+            return changedFields;
+        });
+    },
+
+/home/odoo/odoo/community/addons,-*.po
+pratik.vyas@slktechlabs.in
+
+presentation 
+this is not available now.
+
+check function flow..
+and
+https://drive.google.com/open?id=0B5amJzbPHfP5NjJxRmVHdktvQlU
+check this bug.
+
+[IMP]website_sale,sale : add product variants menu in technical group
+https://www.odoo.com/web#id=34174&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+https://github.com/odoo/odoo/commit/18dfc547342a0b0e7513d2a3cc41601aa0cdc3ff
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+bug find
+[hr_recruitment] traceback while click on create offer button
+v 11.0,  master
+https://drive.google.com/open?id=0B5amJzbPHfP5U1Jubnpic2t3YkE
+
+learn js
+https://www.odoo.com/documentation/10.0/howtos/web.html#odoo-javascript-module
+
+----------------------------------------------------------------------------------------------------------------------------------------
+find bug
+[employee] traceback
+v 11.0,  master
+https://drive.google.com/open?id=0B5amJzbPHfP5U3owbm55NjZ3ZWs
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+When we choose variant in Bills of Materials for any product, the column 'Variants' in BOM lines should not be visible, as we are creating BOM for particular variant only. for more details, please check attached file.
+
+When we are making BOM for any particular variant of any product, then from the BOM Lines column Variants should be set to invisible.
+
+label variants seems too confusing.(Please change it)
+---------------------------------------------------------------------------------------------------------------------------------
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-mrp-hide-variants-column-in-bom-jao
+https://www.odoo.com/web#id=36708&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+R&D and
+https://github.com/odoo/odoo/commit/60572888d9bb0b85a2de6f67fcc2a1611b8bf359
+https://github.com/odoo/odoo/commit/a2ecac9b6492706183a559800184340288ca7046
+-----------------------------------------------------------------------------------------------------------------------------------------
+Branch: https://github.com/odoo-dev/odoo/tree/master-mrp-hide-variants-column-in-bom-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-mrp-hide-variants-column-in-bom-jao
+PR:
+
+attrs="{'invisible': [('parent.product_id', '!=', False)]}"
+
+https://www.odoo.com/web#id=36708&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+https://github.com/odoo/odoo/commit/29a3d46170a2f7e0d22f2b269bb3300e3efdfab5
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+-------ORM API-----------------
+Method decorators
+- odoo.api.multi(method)
+- odoo.api.model(method)
+Environment 
+- with_context()
+- with_env()
+Difference between map and filter 
+Fields and views querying: fields_get(), fields_view_get()
+Miscellaneous methods
+- default_get(fields)
+- copy(default=None)
+- name_get()
+- name_create(name)
+----Views--------
+Inheritance specs
+- inside
+- replace
+- after
+- before
+
+Semantic components
+- attrs
+- context
+- attributes
+
+Search View
+- operator
+- filter_domain
+- context
+
+ security and recored rule
+
+http://pad.odoo.com/p/jao_onboarding
+https://www.python-course.eu/
+practice - python program
+
+http://pad.odoo.com/p/jao_onboarding
+https://www.odoo.com/documentation/11.0/reference/orm.html#computed-fields
+https://www.odoo.com/documentation/11.0/reference/views.html
+http://files.swaroopch.com/python/byte_of_python.pdf
+
+
+2000 + 1000 +1500 + 1500 +
+
+http://pad.odoo.com/p/jao_onboarding
+https://www.odoo.com/documentation/11.0/reference/http.html
+https://www.odoo.com/documentation/10.0/reference/guidelines.html
+http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php
+
+
+what can i do next.
+i have read python and ORM api. 
+and this my doubt.
+
+http://pad.odoo.com/p/jao_onboarding
+https://www.programiz.com/python-programming/
+practice - python program
+
+http://pad.odoo.com/p/jao_onboarding
+session on this topics-rga
+https://www.programiz.com/python-programming
+
+http://pad.odoo.com/p/jao_onboarding
+https://www.odoo.com/documentation/11.0/howtos/backend.html
+Building a Module
+
+Building a Module
+https://drive.google.com/open?id=0B5amJzbPHfP5NENzdmlzcFl5VkU
+https://www.odoo.com/documentation/11.0/howtos/backend.html#build-an-odoo-module
+
+[IMP] sale_order_dates : improve test case for effectivedate 
+
+https://www.odoo.com/web#id=34343&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+https://github.com/odoo/odoo/commit/cd34756e423e4ba6dde8a1b4d1b9eac9cb0aa9ea
+Building a Module
+practice - python program
+
+https://drive.google.com/open?id=1TMJQJCC2MNdnn4S4kaBf-w03g_dCAUhc
+
+http://pad.odoo.com/p/jao_onboarding
+Building a Module
+https://docs.google.com/document/d/130csW1Kujnos_lu7DaZzFAqRFfEXybwxDWeqUiBo8v8/edit?usp=sharing
+
+
+git commit --amend --author="Dipali Tank <dit@odoo.com>"
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-l10n_ch-add-updated-taxes-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-l10n_ch-add-updated-taxes-jao
+PR: 
+
+
+We can add one more trigger order_line.state in case of set false on commitment date when so goes to cancel, No need to put create_date 
+
+
+
+@api.depends('picking_ids.date_done')
+    def _compute_effective_date(self):
+        for order in self:
+            pickings = order.picking_ids.filtered(lambda x: x.state == 'done' and x.location_dest_id.usage == 'customer')
+            dates_list = pickings.mapped('date_done')
+            order.effective_date = dates_list and min(dates_list)
+
+
+
+
+@api.depends('order_line.customer_lead', 'confirmation_date', 'picking_policy', 'order_line.state')
+    def _compute_commitment_date(self):
+        """Compute the commitment date"""
+        for order in self:
+            dates_list = []
+            confirm_date = fields.Datetime.from_string(order.confirmation_date or fields.Datetime.now())
+            for line in order.order_line.filtered(lambda x: x.state != 'cancel'):
+                dt = confirm_date + timedelta(days=line.customer_lead or 0.0)
+                dates_list.append(dt)
+            if dates_list:
+                commit_date = min(dates_list) if order.picking_policy == 'direct' else max(dates_list)
+                order.commitment_date = fields.Datetime.to_string(commit_date)
+
+    @api.depends('picking_ids.date_done')
+    def _compute_effective_date(self):
+        for order in self:
+            pickings = order.picking_ids.filtered(lambda x: x.state == 'done' and x.location_dest_id.usage == 'customer')
+            dates_list = pickings.mapped('date_done')
+            order.effective_date = dates_list and min(dates_list)
+
+
+Community -
+Branch: https://github.com/odoo-dev/odoo/tree/master-l10n_ch-add-updated-taxes-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-l10n_ch-add-updated-taxes-jao
+PR: 
+
+Enterprise -
+Branch: https://github.com/odoo-dev/enterprise/tree/master-l10n_ch-add-updated-taxes-jao
+Compare: https://github.com/odoo/enterprise/compare/master-l10n_ch-add-updated-taxes-jao
+PR: 
+
+
+Switzerland VAT Form: grid 341 base 
+Switzerland VAT Form: grid 341 tax
+
+Switzerland VAT Form: grid 400 
+
+we received this changes,
+-The rate is 3.7% (not 3.6%)
+-tags, fiscal positions and purchases vat are missing.
+can i process further with this changes.
+
+
+[IMP] l10n_ch: update taxes for 2018,  …
+- Added latest taxes for year 2018 of sales and purchase with percentage 3.7 and 7.7
+- Added tags to show newly added tax in VAT report(enterprise branch with PR #1628) for Switzerland
+- Added tages, fiscal positions and purchases vat .
+
+
+[IMP] l10n_ch_reports : Improved Switzerland VAT Reprot, Add New Taxes for Report.
+
+
+
+https://github.com/odoo/odoo/pull/21115/commits/1308fd600f22e0623a54719a30cb95d1e23fa3ae 
+added  2.5% for 2018 (only sale) and fiscal position for 2.5% in this pr, should i add 2.5% for 2018 (sale) in this task also ?
+
+https://www.odoo.com/web#id=39082&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+please see log note and give your suggestions..
+
+
+https://drive.google.com/open?id=1UWm31C0vxr8pR4A3zyOIi6vDvxgMeuwe
+https://drive.google.com/open?id=1haaeXTTmigiEt1vVSGi5qIVWX6CYZu8x
+
+https://www.odoo.com/web#id=39836&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+this task done with https://www.odoo.com/web?#id=39082&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+task..so please give your suggestion for that.
+
+https://www.youtube.com/watch?v=sXAwqoJ-WUA&t=3122s	
+
+please assign reviewer
+https://www.odoo.com/web#id=42243&view_type=form&model=project.task&action=333&active_id=131&menu_id=4720
+
+
+When the reconciliation creates an accounting entry, it should be created at that date (if this date is set, otherwise fall back on normal behavior)
+
+if "Accounting Date" is set then creates an accounting entry based on that date if not set "Accounting Date" then line ids date set in accounting entry. is it ok?
+
+
+
+master-account-bank-statement-reconciliation-jao
+Branch: https://github.com/odoo-dev/odoo/tree/master-account-bank-statement-reconciliation-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-account-bank-statement-reconciliation-jao
+PR:
+
+account : changes after review : typo, rename Journal, remove message 'save this page...',restrict editing access rights for non advisior.. 
+
+--without-demo=WITHOUT_DEMO
+
+1910 bank  cash 1901
+
+
+
+access_ir_model,access_ir_model,base.model_ir_model,mass_mailing.group_mass_mailing_user,0,1,0,0
+
+class IRMODEL(models.Model):
+    _inherit = 'ir.model'
+
+    @api.multi
+    def write(self, vals):
+        import inspect
+        for i in inspect.stack():
+            print(">>>>>>>>>>>>>>>>>", i)
+        print("\n\n\nFFFFFF", vals)
+        return super(IRMODEL, self).write(vals)
+
+
+so in res partner ni write ma 
+create a so and select partner
+
+Some clarification is required on points in spec. It would be very helpful if you could provide details asked in above document.
+
+[FIX] mass_mailing : make mailing_model_name field readonly because of that gives access rights error. not able to create mass maill with mass_mail user rights.
+
+87804747099
+
+be and ch l10n is complate
+Community -
+Branch: https://github.com/odoo-dev/odoo/tree/master-master-l10n_ro-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-l10n_ro-jao
+PR:https://github.com/odoo/odoo/pull/21982
+
+Enterprise - 
+Branch: https://github.com/odoo-dev/enterprise/tree/master-l10n_ro-jao
+Compare: https://github.com/odoo/enterprise/compare/master...odoo-dev:master-l10n_ro-jao
+PR:https://github.com/odoo/enterprise/pull/1733
+
+
+account_tax_template_data.xml -> changes as pr ent reprot
+
+account_tax_data.xml
+
+https://docs.google.com/spreadsheets/d/1DcgC63ouHinWJTk_SlDGzNGQb5_TvpvV9hO56ytq8b4/edit?usp=sharing
+
+IN MASTER
+465 COA
+30 and 54 taxes
+fp 8
+
+IN MY BRANCH
+466 COA
+44 and 86
+	
+1503ffca372ae6e6940f662ef978d3aa26cc1aa0
+5ef8a994cdeaebb7f6121428bf937d432beffa82
+7eaf865e4fabf00dc716c82bf425465c4324ed65
+4a07e82310938297465f5da4d3d79fb34ebb3730
+
+[account_reports] traceback when open reports
+
+Cash Flow Statement
+Executive Summary
+https://www.youtube.com/watch?v=_jVfPywYMiA&feature=youtu.be
+https://youtu.be/_jVfPywYMiA
+
+
+Branch : https://github.com/odoo-dev/odoo/tree/saas-
+11.2-analytic-accounting-purchase-jao
+compare : https://github.com/odoo/odoo/compare/saas-11.2...odoo-dev:saas-11.2-analytic-accounting-purchase-jao
+PR : 
+
+
+
+201, Second Floor, IT Tower 4, InfoCity Gate - 1, Gandhinagar, Gujarat 382007
+
+@Laura Piraux (lap)  waiting for solve this issue in master 
+https://www.odoo.com/web#id=814189&view_type=form&model=project.issue&action=963&active_id=681&menu_id=4720
+because of that i am not able to open a report and test the branch so
+when this issue is solve then i will test the branch.
+Thanks
+
+can you please check it !! in letest saas-11.2 1st and 2nd points do not produce. Thanks
+
+
+1 ) analytic tags set on the SO and also set on the invoice. --> when creating an invoice (down paiement) from a SO, the analytic tags set on the SO are also set on the invoice 
+ in invoice analytic account we can apply in invoice line manualy. if we created from another object (SO) it is not display in SO line but we have to select from the other information.--> the account.analytic.default seem to only apply if the invoice is directly created, not if it's created from another object (SO, etc.) 
+- there are some objects (salary rule, hr contract, purchase requisition, etc.) in which an account.analytic can be set but the the account.analytic.tags 
+
+
+
+
+https://github.com/Yenthe666/InstallScript/blob/11.0/odoo_install.sh
+
+odoo/8.0/community for run 8.0
+odoo/Master/community for run master(11.0)
+
+/home/jao-odoo/odoo/8.0/community/addons,*.py
+/home/jao-odoo/odoo/Master/community,*.py
+
+./openerp-server -d 8.0 --xmlrpc-port=8080
+
+./odoo-bin --addons=addons,../enterprise
+
+migrate 8.0 to 11.0
+
+https://github.com/odoo/ps-aims
+https://github.com/odoo/ps-aims/compare/11.0-60749-account_clearing-jao?expand=1
+https://github.com/odoo/ps-aims/tree/11.0-60749-account_clearing-jao
+git push origin 11.0-60749-account_clearing-jao
+
+https://github.com/odoo/ps-aims/tree/11.0-60774-popup_message-jao
+git rm account_sepa_debit_from_account_move/__openerp__.py 
+git commit --amend --all
+
+Arrange viwes and models as per V11 standard also test with V8 module functionally and migrate some code.
+
+git mv addonds
+
+ git mv addons/supplier_payment_plan/base/res_partner.py addons/supplier_payment_plan/models/
+
+git mv addons/supplier_payment_plan/base/res_partner_bank.py addons/supplier_payment_plan/models/
+
+git rm supplier_payment_plan/account.py
+i need to test all modules which was merge in my branch and make document of them.
+https://docs.google.com/document/d/1VLmGgaaHPhgntZEkmYBSA6lN1APL4iUBj5PHuihFOvc/edit?usp=sharing
+
+29 Modules
+-> account_sepa_base
+-> account_sepa_debit_from_account_move
+-> account_sepa_debit_from_invoice
+-> account_sepa_debit_generic
+
+
+-> account_sepa_credit_from_account_move
+-> account_sepa_credit_from_invoice
+-> account_sepa_credit_generic
+-> account_sepa_credit_export_automatic
+-> account_sepa_credit_extensions
+
+
+-> account_banking_mandate
+-> account_banking_mandate_extensions
+-> account_clearing
+
+
+-> datev_export
+-> datev_export_invoice
+-> datev_export_invoice_specific
+-> datev_export_move
+-> datev_export_move_gc
+-> datev_export_specific
+
+gcp_cstm_crm
+odoo_extensions
+op_costs_calc
+-> popup_message
+
+real_estate
+real_estate_acc_imp
+real_estate_coa
+real_estate_construction
+real_estate_move_in_out_report
+real_estate_sale
+real_estate_scanning
+
+can you please share the 
+ for this issue.
+
+Branch: https://github.com/odoo-dev/odoo/tree/master-website_sale-product-image-disappears-setting-qties-jao
+Compare: https://github.com/odoo/odoo/compare/master...odoo-dev:master-website_sale-product-image-disappears-setting-qties-jao
+PR:
+
+
+ssh jao@migration-t2.odoo.com
+sftp://jao@migration-test.odoo.com/
+
+rushita.adroja@ordextechnology.com
