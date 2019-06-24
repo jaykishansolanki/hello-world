@@ -1,0 +1,78 @@
+<odoo>
+  <data>
+    
+    <!-- explicit form view definition for Employee-->
+    <record model="ir.ui.view" id="employee_form_view">
+            <field name="name">Employee form view</field>
+            <field name="model">employee.employee</field>
+            <field name="arch" type="xml">
+                <form string="Emploee Form">
+                    <header>
+                        <button name="action_active" type="object"
+                                string="Active"
+                                states="confirm,invalid"/>
+                        <button name="action_onleave" type="object"
+                                string="Onleave" states="draft" class="oe_highlight"/>
+                        <button name="action_inactive" type="object"
+                                string="Inactive" states="invalid" class="oe_highlight"/>
+                        <field name="state" widget="statusbar" clickable="true"/>
+                        <!-- <button string="Select Department" type="action" name="%(launch_employee_wizard)d"/> -->
+                    </header>
+
+                    <sheet>
+                      <group>
+                          <group string="Name and ID"> 
+                            <field name="emp_id"/>
+                            <field name="name"/>
+                            <field name="lastname"/>
+                          </group>
+                          <group string="Image"> <!--  -->
+                            <field name="image" widget='image' class="oe_avatar"/>
+                          </group>
+                      </group>
+                      <group>
+                            <group string="Personal Details">
+                                <field name="nationality"/>
+                                <field name="sex" widget="radio"/>
+                                <field name="age"/>
+                                <field name="dob"/>
+                            </group>
+                            <group string="Prof Details">
+                             <!--    <field name="state"/> -->
+                                <field name="salary"/>
+                                <field name="department_id"/>
+                                <field name="tax"/>
+                            </group>
+                            <group>
+                              <field name="joining_date"/>
+                              <field name="leaving_date"/>
+                            </group>
+                      </group>
+                        <notebook>
+                          <!-- <page string="Sex">
+                              <field name="sex"/>
+                          </page> -->
+                          <page string="About Person">
+                              <field name="description"/>
+                          </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+      </record>
+
+    <!-- Top menu item -->
+    <menuitem name="Employee" id="employee_menu_root" groups="base.group_user"/>
+    
+    <!-- menu categories -->
+   <!--  <menuitem name="Dashboard" id="dashboard_employee_menu" parent="employee_menu_root" action="open_board_employee" sequence="1" /> -->
+    <menuitem name="Employee" id="employee_employee_menu" parent="employee_menu_root" sequence="1"/>
+    <menuitem name="Department" id="employee_department_menu" parent="employee_menu_root" sequence="2"/>
+    
+    <!-- actions -->
+    <menuitem name="Employee List" id="employee_emp_menu_emplist" parent="employee_employee_menu"
+              action="employee.view_emp_list"/>
+    <menuitem name="Department List" id="employee_dept_menu_deptlist" parent="employee_department_menu"
+              action="employee.view_dept_list"/>
+  </data>
+</odoo>
